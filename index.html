@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>K.S.Pavitra Gowda</span></h1>
+            <h2 id="typing"></h2>
+
+            <p>
+                Passionate about building responsive, user-friendly and
+                modern web applications using front-end technologies and
+                database solutions.
+            </p>
+
+            <a href="#projects" class="btn">
+                View My Projects
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+
+        <div class="about-content">
+
+            <p>
+               Motivated Bachelor of Technology in Information Technology student
+               with a strong foundation in web development, programming, and database management.
+               Passionate about building efficient and user-friendly
+               applications while continuously expanding technical knowledge. 
+               Possesses strong analytical, problem-solving, and teamwork skills,
+               with a commitment to delivering high-quality solutions 
+               and adapting to new technologies.
+            </p>
+
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">React</div>
+            <div class="skill-card">C</div>
+            <div class="skill-card">C++</div>
+            <div class="skill-card">PostgreSQL</div>
+            <div class="skill-card">SQL</div>
+            <div class="skill-card">Canva</div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Healthcare Management System</h3>
+
+                <p>
+                    Developed a healthcare management platform for
+                    managing patient records, appointments and
+                    healthcare information efficiently.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Stopwatch</h3>
+
+                <p>
+                    Built a stopwatch application with start,
+                    stop, reset and accurate time tracking
+                    functionality.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Tic Tac Toe</h3>
+
+                <p>
+                    Created a responsive two-player Tic Tac Toe game
+                    featuring winner detection and restart options.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <form class="contact-form">
+
+            <input
+                type="text"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                rows="6"
+                placeholder="Your Message"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+            <p id="success-message"></p>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>2026 K.S.Pavitra Gowda Portfolio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
